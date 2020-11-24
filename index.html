@@ -2,6 +2,41 @@
 <html>
 <head>
 	<title>My First Web Site</title>
+
+<style type="text/css">
+	
+h1 {
+	color: green;
+	font-size:30px;
+	text-align: center;
+}
+
+li {
+ list-style: none;
+}
+
+a:link , a:visited{
+
+              text-decoration: none;  
+              background-color: yellow;
+              border: 2px solid red;
+              color: black ;
+              display: block;
+              width: 200px;
+              text-align: center;
+              margin-bottom: 5px; 
+}
+
+a:hover , a:active{
+	background-color: red;
+	color: purple;
+}
+
+section > h2:nth-child(odd){
+background-color: grey;
+}
+</style>>
+
 </head>
 <body>
 <h1 id = "top">HTML Tutorial</h1>
@@ -34,7 +69,7 @@
   </section>
 
     <section id = "section2">
-  	<h2> Section 1 </h2>
+  	<h2> Section 2 </h2>
 
   	<p>Text in the second section</p>
   		
@@ -43,14 +78,8 @@
     <section id = "section3">
   	<h2> Section 3 </h2>
 
-  	<p>Text in the 3rd section And Images</p>
-  	<p>
+  	<p>Text in the 3rd section</p>
 
-<!-- Inserting an image that is your device -->
-
-  	<img src="1212-shrink-volume-100136502-orig.jpg" width="300" height="400"  alt="1212-shrink-volume-100136502-orig">
-
-</p>
 
 <p>
 	
@@ -104,7 +133,7 @@
 </section>
 <!-- A link to another page in the same directory -->
 
-<div><a href="Website.html" title= "Check out my other other-page">Check out my other page</a></div>
+<div><a href="other-page.html" title= "Check out my other other-page">Check out my other page</a></div>
 
 <!-- Navigating to the top of the page-->
 Back To Top: <a href="#top"> Back To Top </a>

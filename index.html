@@ -3,7 +3,9 @@
 <head>
 	<title>My First Web Site</title>
 
+
 <style type="text/css">
+
 	
 h1 {
 	color: green;
@@ -15,25 +17,44 @@ li {
  list-style: none;
 }
 
-a:link , a:visited{
+li>a:link , li>a:visited{
 
               text-decoration: none;  
               background-color: yellow;
               border: 2px solid red;
               color: black ;
-              display: block;
-              width: 200px;
+              display: inline-block;
+              width: 1200px;
+              height: 30px;
               text-align: center;
               margin-bottom: 5px; 
 }
 
-a:hover , a:active{
+li>a:hover , li>a:active{
 	background-color: red;
 	color: purple;
 }
 
 section > h2:nth-child(odd){
 background-color: grey;
+}
+
+div > a {
+	text-decoration: none;  
+              background-color: blue;
+              border: 2px solid red;
+              color: black ;
+              display: inline-block;
+              width: 500px;
+              text-align: center;
+              margin-bottom: 5px; 
+}
+
+div>a:hover , div>a:active{
+	background-color: red;
+	color: yellow;
+	font-size: 20px;
+	border: 2px solid yellow;
 }
 </style>>
 
@@ -48,14 +69,14 @@ background-color: grey;
 
 <!-- Craeting links that nevigate within the webpage -->
 
-	<li><a href="#section1">Link to Section 1 </a> </li>
-    <li><a href="#section2">Link to Section 2 </a> </li>
-    <li><a href="#section3">Link to Section 3 </a> </li>
-    <li><a href="#section4">Link to Section 4 </a> </li>
-    <li><a href="#section5">Link to Section 5 </a> </li>
-    <li><a href="#section6">Link to Section 6 </a> </li>
-    <li><a href="#section7">Link to Section 7 </a> </li>
-    <li><a href="#section8">Link to Section 8 </a> </li>
+	<li><a href="#section1" title="Go to Section 1">Link to Section 1 </a> </li>
+    <li><a href="#section2" title="Go to Section 2">Link to Section 2 </a> </li>
+    <li><a href="#section3" title="Go to Section 3">Link to Section 3 </a> </li>
+    <li><a href="#section4" title="Go to Section 4">Link to Section 4 </a> </li>
+    <li><a href="#section5" title="Go to Section 5">Link to Section 5 </a> </li>
+    <li><a href="#section6" title="Go to Section 6">Link to Section 6 </a> </li>
+    <li><a href="#section7" title="Go to Section 7">Link to Section 7 </a> </li>
+    <li><a href="#section8" title="Go to Section 8">Link to Section 8 </a> </li>
 
 </ul>
 
@@ -97,7 +118,7 @@ background-color: grey;
   		
   </section>
 
-    <section id = "section15">
+    <section id = "section5">
   	<h2> Section 5 </h2>
 
   	<p>Text in the fisrt section</p>
@@ -133,7 +154,7 @@ background-color: grey;
 </section>
 <!-- A link to another page in the same directory -->
 
-<div><a href="Website.html" title= "Check out my other other-page">Check out my other page</a></div>
+<div><a href="Website.html" title= "Learn more about coding websites">Check out my other page</a></div>
 
 <!-- Navigating to the top of the page-->
 Back To Top: <a href="#top"> Back To Top </a>

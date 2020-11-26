@@ -1,10 +1,17 @@
+body {
+
+	background-color: grey;
+
+}
+
+
 h1   {
              color: blue;
              text-align: center;
 }
 
 p{
-	color: grey;
+	color: black;
 	font-size: 30px
 }
 

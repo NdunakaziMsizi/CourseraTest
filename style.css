@@ -15,6 +15,14 @@ p{
 	font-size: 30px
 }
 
+@media (min-width: 200px)  and (max-width: 400px){
+
+       h2 >p {
+              font-align: center;
+       }
+
+      
+}
 h2 {
 	color: blue;
 	text-align: center;

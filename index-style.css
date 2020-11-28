@@ -32,7 +32,7 @@ li>a:hover , li>a:active{
 }
 
 
-@media (min-width: 400px)  {
+@media (min-width: 400px) and (max-width: 900px)  {
 
        div >a {
               width: 100%;

@@ -50,8 +50,7 @@ li>a:hover , li>a:active{
 
        }
 
-section > h2:nth-child(odd){
-background-color: grey;
+section > h2:nth-child(){
 margin: 0;
 padding: 0;
 width : 100%;
